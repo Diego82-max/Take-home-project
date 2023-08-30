@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: poppins,Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    padding: 15px;
+    background-color: white;
+
+}
+
+img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+ label{
+    color: rgba(120,0,208,255);
+    font-weight: 500;
+
+ }
+.text{
+    margin-bottom:20px ;
+    border: none;
+    border-bottom: 2px solid purple;
+    width: 100%;
+}
+
+
+ .password-input{
+    border-bottom: 2px solid rgba(110, 26, 110,0.1);
+    padding-left: 0px;
+    padding-bottom:6px;
+
+    width: 100%;
+ }
+
+ .password-input::placeholder{
+    color: rgba(110, 26, 110,0.5) ;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+
+}
+
+
+button{
+    width: 100%;
+    background-color:rgba(120,0,208,255);
+    border: none;
+    border-radius: 3px;
+    color:white;
+    padding: 15px;
+    align-items: center;
+}
+
+button:hover{
+    background-color: purple;
+
+}
+
+.write-up{
+    text-align: center;
+    font-size: 12px;
+    border-left: 50px;
+}
+span{
+    color:rgba(120,0,208,255);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+span :hover{
+    background-color: aqua;
+}
